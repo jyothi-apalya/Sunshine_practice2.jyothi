@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:summary=""
+        android:title="Settings">
+        <CheckBoxPreference
+            android:key="checkBox"
+            android:summary="On/Off"
+            android:title="Update Automatically" />
+
+        <ListPreference
+            android:entries="@array/listOptionsOffont"
+            android:entryValues="@array/listValuesoffont"
+            android:key="listprefs"
+            android:summary="List preference example"
+            android:title="Change font" />
+        <ListPreference
+            android:entries="@array/listOptionsOfColor"
+            android:entryValues="@array/listValuesOfColor"
+            android:key="color"
+            android:title="Change color"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

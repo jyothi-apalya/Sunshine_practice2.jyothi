@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/today_date1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:padding="32dp"
+            android:text="@string/today_text"
+            android:textSize="@dimen/text_size"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textColor="@color/header_text_color"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/wethear_icon"
+                    android:layout_width="100dp"
+                    android:layout_height="102dp"
+                    android:layout_marginLeft="40dp"
+                    android:src="@drawable/art_clouds" />
+
+                <TextView
+                    android:id="@+id/discryption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="discription"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/header_text_color"/>
+            </LinearLayout>
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+        <TextView
+            android:id="@+id/highTempHeader1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="19"
+            android:layout_marginLeft="70dp"
+            android:textSize="@dimen/details_page_high_temp_size"
+            android:textStyle="bold"
+            android:textColor="@color/header_text_color"
+            />
+
+        <TextView
+            android:id="@+id/lowTempHeader1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="@dimen/deatails_page_low_temp_size"
+            android:textStyle="bold"
+            android:layout_marginLeft="70dp"
+            android:textColor="@color/header_text_color"/>
+          </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/wethear_for_day"
+        android:textSize="@dimen/details_page_text_size"
+        android:layout_weight="1"
+        android:text=" Wind Speed        : "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/pressure"
+        android:text=" Pressure             : "
+        android:textSize="@dimen/details_page_text_size"/>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:id="@+id/humidity"
+        android:layout_weight="1"
+        android:text=" Humidity             : "
+        android:textSize="@dimen/details_page_text_size"/>
+
+</LinearLayout>
+

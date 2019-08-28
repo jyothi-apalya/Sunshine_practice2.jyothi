@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="date_size">20sp</dimen>
+    <dimen name="text_size">24sp</dimen>
+    <dimen name="header_date_text">24sp</dimen>
+    <dimen name="header_discryption">20sp</dimen>
+    <dimen name="header_temp_size">20sp</dimen>
+    <dimen name="header_temp_max_size">45sp</dimen>
+    <dimen name="row_date_size">22sp</dimen>
+    <dimen name="Row_padding">12dp</dimen>
+    <dimen name="row_discryption">20sp</dimen>
+    <dimen name="details_page_text_size">24sp</dimen>
+    <dimen name="details_page_high_temp_size">50sp</dimen>
+    <dimen name="deatails_page_low_temp_size">25sp</dimen>
+</resources>
